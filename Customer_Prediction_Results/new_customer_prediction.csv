@@ -1,0 +1,2 @@
+Age,Gender,Tenure,Usage Frequency,Support Calls,Payment Delay,Subscription Type,Contract Length,Total Spend,Last Interaction,Predicted_Churn,Churn_Probability_Percent,Risk_Level
+22.0,female,12.0,15.0,2.0,5.0,Standard,Annual,500.0,7.0,0,2.0,Low

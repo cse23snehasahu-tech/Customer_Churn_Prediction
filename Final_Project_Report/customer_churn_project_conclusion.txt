@@ -1,0 +1,58 @@
+
+CUSTOMER CHURN PREDICTION SYSTEM
+FINAL PROJECT CONCLUSION
+Generated: 2026-10-26 19:42
+
+1. PROJECT OBJECTIVE
+The objective of this project was to develop a machine learning
+system that predicts whether a customer is likely to churn or stay.
+
+2. DATA PREPARATION
+The dataset was cleaned and explored. CustomerID was excluded
+from the model features because it is an identifier rather than
+a behavioral predictor. Numerical and categorical features were
+preprocessed using imputation, scaling, and encoding as appropriate.
+
+3. MODEL DEVELOPMENT
+Multiple classification algorithms were evaluated. These included
+Logistic Regression, Random Forest, Support Vector Machine, and
+K-Nearest Neighbors. Model improvement and hyperparameter tuning
+were also explored.
+
+4. BEST RESULT IN THE FINAL COMPARISON
+Model: Random Forest
+Model type: Baseline
+Accuracy: 0.9985
+Precision: 0.9995
+Recall: 0.9974
+F1 Score: 0.9984
+
+This model has the highest F1 score among the entries in the
+final comparison file. Its practical suitability should also
+be assessed using recall, precision, business costs, and validation.
+
+5. IMPORTANT FEATURES
+- Payment Delay
+- Support Calls
+- Tenure
+- Gender
+- Usage Frequency
+
+6. CUSTOMER RETENTION
+Predictions can help prioritize customer outreach, investigate
+support issues, improve billing communication, and encourage
+customer engagement. These actions should be tested to measure
+their actual retention impact.
+
+7. LIMITATIONS
+Predictions are estimates and are not guarantees of customer
+behavior. Results depend on data quality, class distribution,
+feature relevance, and model validation. Feature associations
+do not necessarily imply causation.
+
+8. CONCLUSION
+This project demonstrates an end-to-end customer churn prediction
+workflow, including data preparation, exploratory analysis,
+classification, evaluation, risk estimation, and retention
+recommendations. The final model should be selected based on
+validated performance and the business objective.
